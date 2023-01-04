@@ -1,0 +1,879 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <link rel="icon" href="assets/images/favicon.png" sizes="32x32" type="image/png">
+    <title>Business Partner</title>
+
+    <link rel="stylesheet" href="assets/css/icons.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/plugins.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <!-- Color Scheme -->
+    <link rel="stylesheet" href="assets/css/colors/color.css" title="theme-color1">
+    <link rel="alternate stylesheet" href="assets/css/colors/color2.css" title="theme-color2">
+    <link rel="alternate stylesheet" href="assets/css/colors/color3.css" title="theme-color3">
+    <link rel="alternate stylesheet" href="assets/css/colors/color4.css" title="theme-color4">
+    <link rel="alternate stylesheet" href="assets/css/colors/color5.css" title="theme-color5">
+    <link rel="alternate stylesheet" href="assets/css/colors/color6.css" title="theme-color6">
+    <link rel="alternate stylesheet" href="assets/css/colors/color7.css" title="theme-color7">
+    <link rel="alternate stylesheet" href="assets/css/colors/color8.css" title="theme-color8">
+    <link rel="alternate stylesheet" href="assets/css/colors/color9.css" title="theme-color9">
+
+    <style>
+        nav>ul li a:hover {
+            color: #00AEFF;
+        }
+
+        .btn_red {
+            background-color: red;
+            border-color: red;
+            color: white;
+        }
+
+    </style>
+</head>
+
+<body class="gray-bg" style="background-color: white;">
+    <main class="header-expand">
+        <!--=================topbar===================-->
+
+        <div class="topbar" style="display: flex;width: 100vw;justify-content: center;align-items: center;background-color: #363636;">
+            <div style="width: 30vw;">
+                <div class="logo"><img src="assets/images/logo.png" alt="logo"></div>
+            </div><!-- Logo -->
+            <div class="nav_icon"><span class="menu-btn"><i class="fa fa-align-right"></i></span>
+            </div>
+ 
+
+            <div style="width: 60vw;">
+                <ul class="topbar-lists">
+                    <li>
+
+                        <div class="set-lst">
+                            <h4>General Settings</h4>
+                            <ul class="sett-lst">
+                                <li>
+                                    <span class="chck-bx">
+                                        <input id="set1" type="checkbox">
+                                        <label for="set1">Report Panel Usage</label>
+                                    </span>
+                                    <i>General Settings information</i>
+                                </li>
+                                <li>
+                                    <span class="chck-bx">
+                                        <input id="set2" type="checkbox">
+                                        <label for="set2">Mail Redirect</label>
+                                    </span>
+                                    <i>General Settings information</i>
+                                </li>
+                                <li>
+                                    <span class="chck-bx">
+                                        <input id="set3" type="checkbox">
+                                        <label for="set3">Expose Author Name</label>
+                                    </span>
+                                    <i>General Settings information</i>
+                                </li>
+                            </ul>
+                            <h4>Chat Settings</h4>
+                            <ul>
+                                <li>
+                                    <span class="chck-bx">
+                                        <input id="set4" type="checkbox">
+                                        <label for="set4">Show Me As Online</label>
+                                    </span>
+                                </li>
+                                <li>
+                                    <span class="chck-bx">
+                                        <input id="set5" type="checkbox">
+                                        <label for="set5">Turn Off Notifications</label>
+                                    </span>
+                                </li>
+                            </ul>
+                            <a class="btn-danger" href="#" title=""><i class="fa fa-trash"></i>Delete Chat History</a>
+                        </div>
+                    </li>
+                    <li>
+                        <a class="mail-btn" href="#" title=""><i class="icon ion-android-drafts"></i><span>02</span></a>
+                        <div class="nti-drp-wrp">
+                            <h4 class="thm-bg"><span>You Have</span> 4 New Messages</h4>
+                            <div class="nti-lst">
+                                <div class="nti-usr">
+                                    <img class="brd-rd50" src="assets/images/resources/acti-thmb1.jpg" alt="acti-thmb1.jpg">
+                                    <div class="nti-usr-inr">
+                                        <h5><a href="#" title="">Sadi Orlaf</a></h5><span>Just Now</span>
+                                        <i>Privacy settings changed</i>
+                                    </div>
+                                </div>
+                                <div class="nti-usr">
+                                    <img class="brd-rd50" src="assets/images/resources/acti-thmb2.jpg" alt="acti-thmb2.jpg">
+                                    <div class="nti-usr-inr">
+                                        <h5><a href="#" title="">Katti Smith</a></h5><span>Just Now</span>
+                                        <i>Mike has added you as friend</i>
+                                    </div>
+                                </div>
+                                <div class="nti-usr">
+                                    <img class="brd-rd50" src="assets/images/resources/acti-thmb3.jpg" alt="acti-thmb3.jpg">
+                                    <div class="nti-usr-inr">
+                                        <h5><a href="#" title="">Willimes Domson</a></h5><span>Just Now</span>
+                                        <i>like your timeline photo</i>
+                                    </div>
+                                </div>
+                                <div class="nti-usr">
+                                    <img class="brd-rd50" src="assets/images/resources/acti-thmb4.jpg" alt="acti-thmb4.jpg">
+                                    <div class="nti-usr-inr">
+                                        <h5><a href="#" title="">Holli Doe</a></h5><span>Just Now</span>
+                                        <i>Curabitur id eros limes suscipit blandit.</i>
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="#" title="">View All</a>
+                        </div>
+                    </li>
+                    <li>
+                        <a class="cnt-btn" href="#" title=""><i class="icon ion-android-contacts"></i></a>
+                        <div class="cnt-lst">
+                            <div class="usr">
+                                <img class="brd-rd50" src="assets/images/resources/acti-thmb1.jpg" alt="acti-thmb1.jpg">
+                                <div class="usr-innr">
+                                    <h5><a href="#" title="">Smith Doe</a></h5>
+                                    <span>Co Worker</span>
+                                    <a href="#" title=""><i class="fa fa-envelope"></i></a>
+                                </div>
+                            </div>
+                            <div class="usr">
+                                <img class="brd-rd50" src="assets/images/resources/acti-thmb2.jpg" lt="acti-thmb2.jpg">
+                                <div class="usr-innr">
+                                    <h5><a href="#" title="">Katti Smith</a></h5>
+                                    <span>Graphic Designer</span>
+                                    <a href="#" title=""><i class="fa fa-envelope"></i></a>
+                                </div>
+                            </div>
+                            <div class="usr">
+                                <img class="brd-rd50" src="assets/images/resources/acti-thmb3.jpg" alt="acti-thmb3.jpg">
+                                <div class="usr-innr">
+                                    <h5><a href="#" title="">Willimes Domson</a></h5>
+                                    <span>Family Adviser</span>
+                                    <a href="#" title=""><i class="fa fa-envelope"></i></a>
+                                </div>
+                            </div>
+                            <div class="usr">
+                                <img class="brd-rd50" src="assets/images/resources/acti-thmb4.jpg" alt="acti-thmb4.jpg">
+                                <div class="usr-innr">
+                                    <h5><a href="#" title="">Holli Doe</a></h5>
+                                    <span>Company CEO</span>
+                                    <a href="#" title=""><i class="fa fa-envelope"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a class="noti-btn" href="#" title=""><i class="icon ion-ios-bell"></i><span>02</span></a>
+                        <div class="nti-drp-wrp">
+                            <h4 class="thm-bg"><span>You Have</span> 4 Notifications</h4>
+                            <div class="nti-lst">
+                                <div class="nti-usr">
+                                    <span class="brd-rd50 thm-bg"><i class="fa fa-cog"></i></span>
+                                    <div class="nti-usr-inr">
+                                        <h5><a href="#" title="">Sadi Orlaf</a></h5><span>Just Now</span>
+                                        <i>Privacy settings changed</i>
+                                    </div>
+                                </div>
+                                <div class="nti-usr">
+                                    <span class="brd-rd50 bg-info"><i class="icon ion-ios-person"></i></span>
+                                    <div class="nti-usr-inr">
+                                        <h5><a href="#" title="">Katti Smith</a></h5><span>Just Now</span>
+                                        <i>Mike has added you as friend</i>
+                                    </div>
+                                </div>
+                                <div class="nti-usr">
+                                    <span class="brd-rd50 bg-warning"><i class="icon ion-thumbsup"></i></span>
+                                    <div class="nti-usr-inr">
+                                        <h5><a href="#" title="">Willimes Domson</a></h5><span>Just Now</span>
+                                        <i>like your timeline photo</i>
+                                    </div>
+                                </div>
+                                <div class="nti-usr">
+                                    <span class="brd-rd50 bg-danger"><i class="icon ion-information-circled"></i></span>
+                                    <div class="nti-usr-inr">
+                                        <h5><a href="#" title="">Holli Doe</a></h5><span>Just Now</span>
+                                        <i>Curabitur id eros limes suscipit blandit.</i>
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="#" title="">View All</a>
+                        </div>
+                    </li>
+                </ul>
+            </div> <!-- Topbar Lists -->
+        </div><!-- Topbar -->
+        <header class="dark-bg">
+            <div class="usr-inf" style="background-color: black;">
+                <div class="usr-inf-inner">
+                    <span class="usr-img"><img src="assets/images/img_pro2.jpg" alt="image"><i class="usr-sts onln"></i></span>
+                    <div class="usr-nm-desg">
+                        <h4>John Doe</h4>
+                        <span>Designer</span>
+                    </div>
+                </div>
+                <p></p>
+                <div class="usr-inf-btns">
+                    <a class="usr-msg" href="#" title="">Message</a>
+                    <a class="usr-log" href="#" title="">Log Out</a>
+                </div>
+            </div><!-- User Info -->
+            <nav>
+                <ul>
+                    <li><a href="index.html"><i class="icon ion-ios-crop"></i><span>Overview</span></a></li>
+                    
+                    <li class="menu-item-has-children"><a href="#" title=""><i class="icon ion-android-home"></i><span>Approval Center</span></a>
+                        <ul class="children">
+                            <li><a href="dig_marketing.html" title="">Digital Marketing</a></li>
+                            <li><a href="ecommerce.html" title="">Ecommerce</a></li>
+                            <li><a href="shop_savers.html" title="">Shop Saver</a></li>
+                            <li><a href="entrep_center.html" title="">Entrepreneur Centre</a></li>
+                            <li><a href="video_promo.html" title="">Video Promos</a></li>
+                            <li><a href="banner_promo.html" title="">Banner Promos</a></li>
+                            <li><a href="reviews.html" title="">Reviews</a></li>
+                            <li><a href="user_regi.html" title="">User Registration</a></li>
+                            <li><a href="buyer_mem.html" title="">Membership</a></li>
+                            <li><a href="contracors.html" title="">Contractors</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-item-has-children"><a href="#" title=""><i class="icon ion-android-home"></i><span>Business Activities</span></a>
+                        <ul class="children">
+                            <li><a href="sales_report.html" title="">Sales Report</a></li>
+                            <li><a href="subs_report.html" title="">Subscription Report</a></li>
+                            <li><a href="promo_report.html" title="">Promo Report</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-item-has-children"><a href="#" title=""><i class="icon ion-android-home"></i><span>Admin</span></a>
+                        <ul class="children">
+                            <li><a href="user_manage.html" title="">User Mangement</a></li>
+                            
+                            <li><a href="biz_clasification.html" title="">Business Classification</a></li>
+                            <li><a href="location_manage.html" title="">Location Management</a></li>
+                            <li><a href="doc_manage.html" title="">Document Management</a></li>
+                            <li><a href="pricing_manage.html" title="">Pricing Management</a></li>
+                            <li><a href="product_manage.html" title="">Products Management</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-item-has-children"><a href="#" title=""><i class="icon ion-android-home"></i><span>Video Management</span></a>
+                        <ul class="children">
+                            <li><a href="vm_affiliate.html" title="">Affiliate Admin</a></li>
+                            <li><a href="vm_email.html" title="">Email Admin</a></li>
+                            <li><a href="vm_seo.html" title="">SEO</a></li>
+                            <li><a href="vm_social.html" title="">Social Marketing</a></li>
+                            <li><a href="vm_shop.html" title="">Shop Saver</a></li>
+                            <li><a href="vm_contractor.html" title="">Contractor Site</a></li>
+                            <li><a href="vm_bizsel.html" title="">Business Sales</a></li>
+                            <li><a href="vm_psel.html" title="">Property Sales</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-item-has-children"><a href="#" title=""><i class="icon ion-android-home"></i><span>Banner Management</span></a>
+                        <ul class="children">
+                            <li><a href="bm_affiliate.html" title="">Affiliate Admin</a></li>
+                            <li><a href="bm_email.html" title="">Email Admin</a></li>
+                            <li><a href="bm_seo.html" title="">SEO</a></li>
+                            <li><a href="bm_social.html" title="">Social Marketing</a></li>
+                            <li><a href="bm_shop.html" title="">Shop Saver</a></li>
+                            <li><a href="bm_contractor.html" title="">Contractor Site</a></li>
+                            <li><a href="bm_bizsel.html" title="">Business Sales</a></li>
+                            <li><a href="bm_psel.html" title="">Property Sales</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-item-has-children"><a href="#" title=""><i class="icon ion-android-home"></i><span>Promo Management</span></a>
+                        <ul class="children">
+                            <li><a href="pm_affiliate.html" title="">Affiliate Admin</a></li>
+                            <li><a href="pm_email.html" title="">Email Admin</a></li>
+                            <li><a href="pm_seo.html" title="">SEO</a></li>
+                            <li><a href="pm_social.html" title="">Social Marketing</a></li>
+                            <li><a href="pm_shop.html" title="">Shop Saver</a></li>
+                            <li><a href="pm_contractor.html" title="">Contractor</a></li>
+                            <li><a href="pm_bsel.html" title="">Business Sales</a></li>
+                            <li><a href="pm_psel.html" title="">Property Sales</a></li>
+                        </ul>
+                    </li>
+                    
+                    
+                    <li class="menu-item-has-children"><a href="#" title=""><i class="icon ion-android-home"></i><span>Content Management</span></a>
+                        <ul class="children">
+                            <li><a href="banner_contents.html" title="">Banner Promo Contents</a></li>
+                            <li><a href="hom_content.html" title="">Home Page</a></li>
+                            <li><a href="services_content.html" title="">Services</a></li>
+                            <li><a href="about_us_content.html" title="">About Us</a></li>
+                            <li><a href="success_story_content.html" title="">Success Stories</a></li>
+                            <li><a href="footer_content.html" title="">Footer Content</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="entrep_center.html"><i class="icon ion-ios-crop"></i><span>Entreprenuer Center</span></a></li>
+                    <li><a href="dashboard_affiliate.html" title=""><i class="icon ion-ios-crop"></i><span>Affiliate Admin</span></a></li><li><a href="email.html" title=""><i class="icon ion-ios-crop"></i><span>Email Center</span></a></li>
+                    <li><a href="dashboard_email.html" title=""><i class="icon ion-ios-crop"></i><span>Email Admin</span></a></li><li><a href="email.html" title=""><i class="icon ion-ios-crop"></i><span>Email Center</span></a></li>
+                    <li><a href="dashboard_seo.html" title=""><i class="icon ion-ios-crop"></i><span>SEO</span></a></li><li><a href="email.html" title=""><i class="icon ion-ios-crop"></i><span>Email Center</span></a></li>
+                    <li><a href="dashboard_sm.html" title=""><i class="icon ion-ios-crop"></i><span>Social Marketing</span></a></li><li><a href="email.html" title=""><i class="icon ion-ios-crop"></i><span>Email Center</span></a></li>
+                    <li><a href="#" title=""><i class="icon ion-ios-crop"></i><span>Shop Saver</span></a></li><li><a href="email.html" title=""><i class="icon ion-ios-crop"></i><span>Email Center</span></a></li>
+                </ul>
+            </nav><!-- Nav -->
+
+        </header><!-- Header -->
+
+        <!--=============== new contents========================-->
+        <section class="move_btn">
+            <a href="index.html"><img src="assets/images/left-arrow.png" alt=""></a>
+        </section>
+        <div class="separate_demo">
+            <div class="headerr">
+                <div class="page-title">
+                    <h1><a href="location_manage.html">Location Management</a></h1>
+                </div>
+            </div>
+            <div class="main_content_block">
+                <div class="loc_mng_top_buttons">
+                    <button class="custom_btn active_btn" id="mng_cntry_btn" style="margin-right: 5px">Manage Country</button>
+                    <button class="custom_btn" id="mng_st_btn" style="margin-right: 5px">Manage State</button>
+                    <button class="custom_btn" id="mng_rg_btn">Manage Region</button>
+                    <button class="custom_btn" id="mng_ct_btn">Manage City</button>
+                    <button class="custom_btn" id="mng_sb_btn">Manage Suburb</button>
+                    <button class="custom_btn" id="mng_trt_btn">Manage Territory</button>
+                    <button class="custom_btn" id="mng_pc_btn">Manage Post Codes</button>
+                </div>
+            </div>
+            <div class="row" style="margin-top: 30px;">
+                <div class="col-lg-8">
+                    <div class="top_btn">
+                        <a href="" class="btn custom_btn">Delete</a>
+                        <a href="" class="btn custom_btn">save</a>
+                        <a href="" class="btn custom_btn">Edit</a>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="top_btn loc_side_btn" style="display: flex;justify-content: center">
+                        <button class="btn custom_btn">Add New</button>
+                        <button class="btn custom_btn">Save</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <!--===============table content itemssssssssss==========-->
+            <section id="cntry_mng_tbl" style="margin-top: ;display: ">
+                <div class="form_content" style="margin-top: ;">
+                    <div class="form_item">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="item_box salut_box">
+                                    <select name="" id="">
+                                        <option value="" selected>Division</option>
+                                        <option value="">Affiliate Admin</option>
+                                        <option value="">Email Admin</option>
+                                        <option value="">SEO</option>
+                                        <option value="">Social Marketing</option>
+                                        <option value="">Shop Saver</option>
+                                        <option value="">Contractor</option>
+                                        <option value="">Property Sales</option>
+                                        <option value="">Business Sales</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row" style="margin-top: 20px;">
+                    <div class="col-lg-9">
+                        <div class="ordr-tbl-wrp" id="" style="padding-bottom: 100px;">
+                            <table style="">
+                                <thead>
+                                    <tr>
+                                        <th>#</th>
+                                        <th>Date</th>
+                                        <th>Division </th>
+                                        <th>Country</th>
+                                        <th>Select</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>01</td>
+                                        <td>date</td>
+                                        <td>text</td>
+                                        <td>Australia</td>
+                                        <td class="check-tbl-td">
+                                            <label class="slct_check">
+                                                <input type="checkbox" checked="checked">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                        </td>
+
+                                    </tr>
+
+                                </tbody>
+                            </table>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="tbl_search1">
+                            <p><span>Country: </span><input type="text" class="form-control"></p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--2-->
+            <section id="st_mng_tbl" style="margin-top: ;display: none">
+                <div class="form_content" style="margin-top: ;">
+                    <div class="form_item">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="item_box salut_box">
+                                    <select name="" id="">
+                                        <option value="" selected>Division</option>
+                                        <option value="">Affiliate Admin</option>
+                                        <option value="">Email Admin</option>
+                                        <option value="">SEO</option>
+                                        <option value="">Social Marketing</option>
+                                        <option value="">Shop Saver</option>
+                                        <option value="">Contractor</option>
+                                        <option value="">Property Sales</option>
+                                        <option value="">Business Sales</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row" style="margin-top: 20px;">
+                    <div class="col-lg-9">
+                        <div class="ordr-tbl-wrp" id="" style="padding-bottom: 100px;display: ">
+
+                            <table style="" class="">
+                                <thead>
+                                    <tr>
+                                        <th>#</th>
+                                        <th>Date</th>
+                                        <th>Division</th>
+                                        <th>Country</th>
+                                        <th>State</th>
+                                        <th>Select</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>01</td>
+                                        <td>date</td>
+                                        <td>text</td>
+                                        <td>country</td>
+                                        <td>state</td>
+                                        <td class="check-tbl-td">
+                                            <label class="slct_check">
+                                                <input type="checkbox" checked="checked">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="tbl_search1">
+                            <p>Country:</p>
+                            <p style="margin-top: 20px;"><span>State:</span><input type="text" class="form-control"></p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--3-->
+            <section id="reg_mng_tbl" style="margin-top: ; display: none">
+                <div class="form_content" style="margin-top: ;">
+                    <div class="form_item">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="item_box salut_box">
+                                    <select name="" id="">
+                                        <option value="" selected>Division</option>
+                                        <option value="">Affiliate Admin</option>
+                                        <option value="">Email Admin</option>
+                                        <option value="">SEO</option>
+                                        <option value="">Social Marketing</option>
+                                        <option value="">Shop Saver</option>
+                                        <option value="">Contractor</option>
+                                        <option value="">Property Sales</option>
+                                        <option value="">Business Sales</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row" style="margin-top: 20px;">
+                    <div class="col-lg-9">
+                        <div class="ordr-tbl-wrp" id="table3" style="padding-bottom: 100px;display:">
+
+                            <table style="" class="">
+                                <thead>
+                                    <tr>
+                                        <th>#</th>
+                                        <th>Date</th>
+                                        <th>Division</th>
+                                        <th>Country</th>
+                                        <th>State</th>
+                                        <th>Region</th>
+                                        <th>Select</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>01</td>
+                                        <td>date</td>
+                                        <td>text</td>
+                                        <td>country</td>
+                                        <td>state</td>
+                                        <td>region</td>
+                                        <td class="check-tbl-td">
+                                            <label class="slct_check">
+                                                <input type="checkbox" checked="checked">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="tbl_search1">
+                            <p>Country:</p>
+                            <p>State:</p>
+                            <p style="margin-top: 20px;"><span>Region:</span><input type="text" class="form-control"></p>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <!--4-->
+            <section id="ct_mng_tbl" style="margin-top: ; display: none">
+                <div class="form_content" style="margin-top: ;">
+                    <div class="form_item">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="item_box salut_box">
+                                    <select name="" id="">
+                                        <option value="" selected>Division</option>
+                                        <option value="">Affiliate Admin</option>
+                                        <option value="">Email Admin</option>
+                                        <option value="">SEO</option>
+                                        <option value="">Social Marketing</option>
+                                        <option value="">Shop Saver</option>
+                                        <option value="">Contractor</option>
+                                        <option value="">Property Sales</option>
+                                        <option value="">Business Sales</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row" style="margin-top: 20px;">
+                    <div class="col-lg-9">
+                        <div class="ordr-tbl-wrp" id="" style="padding-bottom: 100px;display: ">
+                            <table style="" class="">
+                                <thead>
+                                    <tr>
+                                        <th>#</th>
+                                        <th>Date</th>
+                                        <th>Division</th>
+                                        <th>Country</th>
+                                        <th>State</th>
+                                        <th>Region</th>
+                                        <th>City</th>
+                                        <th>Select</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>01</td>
+                                        <td>date</td>
+                                        <td>text</td>
+                                        <td>country</td>
+                                        <td>state</td>
+                                        <td>region</td>
+                                        <td>city</td>
+                                        <td class="check-tbl-td">
+                                            <label class="slct_check">
+                                                <input type="checkbox" checked="checked">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                        </td>
+                                    </tr>
+
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="tbl_search1">
+                            <p>Country:</p>
+                            <p>State:</p>
+                            <p>Region:</p>
+                            <p style="margin-top: 20px;"><span>City:</span><input type="text" class="form-control"></p>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <!--5-->
+            <section id="mng_sb_tbl" style="margin-top: ; display: none">
+                <div class="form_content" style="margin-top: ;">
+                    <div class="form_item">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="item_box salut_box">
+                                    <select name="" id="">
+                                        <option value="" selected>Division</option>
+                                        <option value="">Affiliate Admin</option>
+                                        <option value="">Email Admin</option>
+                                        <option value="">SEO</option>
+                                        <option value="">Social Marketing</option>
+                                        <option value="">Shop Saver</option>
+                                        <option value="">Contractor</option>
+                                        <option value="">Property Sales</option>
+                                        <option value="">Business Sales</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row" style="margin-top: 20px;">
+                    <div class="col-lg-10">
+                        <div class="ordr-tbl-wrp" id="" style="padding-bottom: 100px;display: ">
+                            <table style="" class="">
+                                <thead>
+                                    <tr>
+                                        <th>#</th>
+                                        <th>Date</th>
+                                        <th>Division</th>
+                                        <th>Country</th>
+                                        <th>State</th>
+                                        <th>Region</th>
+                                        <th>City</th>
+                                        <th>Suburb</th>
+                                        <th>Select</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>01</td>
+                                        <td>date</td>
+                                        <td>text</td>
+                                        <td>country</td>
+                                        <td>state</td>
+                                        <td>region</td>
+                                        <td>city</td>
+                                        <td>suburb</td>
+                                        <td class="check-tbl-td">
+                                            <label class="slct_check">
+                                                <input type="checkbox" checked="checked">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="tbl_search1">
+                            <p>Country:</p>
+                            <p>State:</p>
+                            <p>Region:</p>
+                            <p>City:</p>
+                            <p style="margin-top: 20px;"><span>Suburb:</span><input type="text" class="form-control" style="width: 115px !important;"></p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--6-->
+            <section id="mng_pc_tbl" style="margin-top: ; display: none">
+                <div class="form_content" style="margin-top: ;">
+                    <div class="form_item">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="item_box salut_box">
+                                    <select name="" id="">
+                                        <option value="" selected>Division</option>
+                                        <option value="">Affiliate Admin</option>
+                                        <option value="">Email Admin</option>
+                                        <option value="">SEO</option>
+                                        <option value="">Social Marketing</option>
+                                        <option value="">Shop Saver</option>
+                                        <option value="">Contractor</option>
+                                        <option value="">Property Sales</option>
+                                        <option value="">Business Sales</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row" style="margin-top: 20px;">
+                    <div class="col-lg-10">
+                        <div class="ordr-tbl-wrp" id="table6" style="padding-bottom: 100px;display: ">
+                            <table style="" class="">
+                                <thead>
+                                    <tr>
+                                        <th>#</th>
+                                        <th>Date</th>
+                                        <th>Division</th>
+                                        <th>Country</th>
+                                        <th>State</th>
+                                        <th>Region</th>
+                                        <th>City</th>
+                                        <th>Suburb</th>
+                                        <th>Post Code</th>
+                                        <th>Select</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>01</td>
+                                        <td>date</td>
+                                        <td>text</td>
+                                        <td>country</td>
+                                        <td>state</td>
+                                        <td>region</td>
+                                        <td>city</td>
+                                        <td>suburb</td>
+                                        <td>post code</td>
+                                        <td class="check-tbl-td">
+                                            <label class="slct_check">
+                                                <input type="checkbox" checked="checked">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                        </td>
+                                    </tr>
+
+                                </tbody>
+                            </table>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="tbl_search1">
+                            <p>Country:</p>
+                            <p>State:</p>
+                            <p>Region:</p>
+                            <p>City:</p>
+                            <p>Suburb:</p>
+                            <p style="margin-top: 20px;"><span>Post Code:</span><input type="text" class="form-control" style="width: 100px !important"></p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--            ----7------->
+            <section id="mng_trt_tbl" style="margin-top: ; display: none">
+                <div class="form_content" style="margin-top: ;">
+                    <div class="form_item">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="item_box salut_box">
+                                    <select name="" id="">
+                                        <option value="" selected>Division</option>
+                                        <option value="">Affiliate Admin</option>
+                                        <option value="">Email Admin</option>
+                                        <option value="">SEO</option>
+                                        <option value="">Social Marketing</option>
+                                        <option value="">Shop Saver</option>
+                                        <option value="">Contractor</option>
+                                        <option value="">Property Sales</option>
+                                        <option value="">Business Sales</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row" style="margin-top: 20px;">
+                    <div class="col-lg-10">
+                        <div class="ordr-tbl-wrp" id="table6" style="padding-bottom: 100px;display: ">
+                            <table style="" class="">
+                                <thead>
+                                    <tr>
+                                        <th>#</th>
+                                        <th>Date</th>
+                                        <th>Division</th>
+                                        <th>Country</th>
+                                        <th>State</th>
+                                        <th>Territory</th>
+                                        <th>Select</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>01</td>
+                                        <td>date</td>
+                                        <td>text</td>
+                                        <td>country</td>
+                                        <td>state</td>
+                                        <td>Territory</td>
+                                        <td class="check-tbl-td">
+                                            <label class="slct_check">
+                                                <input type="checkbox" checked="checked">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="tbl_search1">
+                            <p>Country:</p>
+                            <p>State:</p>
+                            <p>Region:</p>
+                            <p>City:</p>
+                            <p>Suburb:</p>
+                            <p style="margin-top: 20px;"><span>Post Code:</span><input type="text" class="form-control" style="width: 100px !important"></p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+
+
+        </div>
+
+
+
+        <!--=============== new contents========================-->
+
+
+        <footer style="background-color: black;">
+            <div class="col-sm-12" style="text-align: center;background-color: black;color: white;">© Business Media Group 2020.All rights reserved</div>
+        </footer>
+    </main><!-- Main Wrapper -->
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/plugins.min.js"></script>
+    <script src="assets/js/custom-scripts.js"></script>
+
+
+</body>
+
+</html>

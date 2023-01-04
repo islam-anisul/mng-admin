@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <link rel="icon" href="assets/images/favicon.png" sizes="32x32" type="image/png">
+    <title>Lions Brokers</title>
+
+    <link rel="stylesheet" href="assets/css/icons.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/plugins.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <!-- Color Scheme -->
+    <link rel="stylesheet" href="assets/css/colors/color.css" title="theme-color1">
+    <link rel="alternate stylesheet" href="assets/css/colors/color2.css" title="theme-color2">
+    <link rel="alternate stylesheet" href="assets/css/colors/color3.css" title="theme-color3">
+    <link rel="alternate stylesheet" href="assets/css/colors/color4.css" title="theme-color4">
+    <link rel="alternate stylesheet" href="assets/css/colors/color5.css" title="theme-color5">
+    <link rel="stylesheet" href="assets/css/calendar-core-main.min.css">
+    <link rel="stylesheet" href="assets/css/calendar-daygrid-main.min.css">
+    <link rel="alternate stylesheet" href="assets/css/colors/color6.css" title="theme-color6">
+    <link rel="alternate stylesheet" href="assets/css/colors/color7.css" title="theme-color7">
+    <link rel="alternate stylesheet" href="assets/css/colors/color8.css" title="theme-color8">
+    <link rel="alternate stylesheet" href="assets/css/colors/color9.css" title="theme-color9">
+
+    <style>
+        nav>ul li a:hover {
+            color: #00AEFF;
+        }
+
+        .head_box h4 {
+            color: white;
+        }
+
+        @media(min-width: 601px) {
+            .box_size {
+                width: 230px;
+                height: 168px;
+            }
+
+            .head_box {
+                height: 115px;
+            }
+
+            .fnt {
+                font-size: 18px;
+            }
+
+
+        }
+
+        .table_custom tr td {
+            border-style: solid !important;
+        }
+
+        .view_red {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+    </style>
+
+</head>
+
+<body class="gray-bg" style="background-color: white;">
+    <main class="header-expand">
+        <!--=================topbar===================-->
+
+        <div class="topbar" style="display: flex;width: 100vw;justify-content: center;align-items: center;background-color: #363636;">
+            <div style="width: 30vw;">
+                <div class="logo"><img src="assets/images/logo.png" alt="logo"></div>
+            </div><!-- Logo -->
+            <div class="nav_icon"><span class="menu-btn"><i class="fa fa-align-right"></i></span>
+            </div>
+
+
+            <div style="width: 60vw;">
+                <ul class="topbar-lists">
+                    <li>
+
+                        <div class="set-lst">
+                            <h4>General Settings</h4>
+                            <ul class="sett-lst">
+                                <li>
+                                    <span class="chck-bx">
+                                        <input id="set1" type="checkbox">
+                                        <label for="set1">Report Panel Usage</label>
+                                    </span>
+                                    <i>General Settings information</i>
+                                </li>
+                                <li>
+                                    <span class="chck-bx">
+                                        <input id="set2" type="checkbox">
+                                        <label for="set2">Mail Redirect</label>
+                                    </span>
+                                    <i>General Settings information</i>
+                                </li>
+                                <li>
+                                    <span class="chck-bx">
+                                        <input id="set3" type="checkbox">
+                                        <label for="set3">Expose Author Name</label>
+                                    </span>
+                                    <i>General Settings information</i>
+                                </li>
+                            </ul>
+                            <h4>Chat Settings</h4>
+                            <ul>
+                                <li>
+                                    <span class="chck-bx">
+                                        <input id="set4" type="checkbox">
+                                        <label for="set4">Show Me As Online</label>
+                                    </span>
+                                </li>
+                                <li>
+                                    <span class="chck-bx">
+                                        <input id="set5" type="checkbox">
+                                        <label for="set5">Turn Off Notifications</label>
+                                    </span>
+                                </li>
+                            </ul>
+                            <a class="btn-danger" href="#" title=""><i class="fa fa-trash"></i>Delete Chat History</a>
+                        </div>
+                    </li>
+                    <li>
+                        <a class="mail-btn" href="#" title=""><i class="icon ion-android-drafts"></i><span>02</span></a>
+                        <div class="nti-drp-wrp">
+                            <h4 class="thm-bg"><span>You Have</span> 4 New Messages</h4>
+                            <div class="nti-lst">
+                                <div class="nti-usr">
+                                    <img class="brd-rd50" src="assets/images/resources/acti-thmb1.jpg" alt="acti-thmb1.jpg">
+                                    <div class="nti-usr-inr">
+                                        <h5><a href="#" title="">Sadi Orlaf</a></h5><span>Just Now</span>
+                                        <i>Privacy settings changed</i>
+                                    </div>
+                                </div>
+                                <div class="nti-usr">
+                                    <img class="brd-rd50" src="assets/images/resources/acti-thmb2.jpg" alt="acti-thmb2.jpg">
+                                    <div class="nti-usr-inr">
+                                        <h5><a href="#" title="">Katti Smith</a></h5><span>Just Now</span>
+                                        <i>Mike has added you as friend</i>
+                                    </div>
+                                </div>
+                                <div class="nti-usr">
+                                    <img class="brd-rd50" src="assets/images/resources/acti-thmb3.jpg" alt="acti-thmb3.jpg">
+                                    <div class="nti-usr-inr">
+                                        <h5><a href="#" title="">Willimes Domson</a></h5><span>Just Now</span>
+                                        <i>like your timeline photo</i>
+                                    </div>
+                                </div>
+                                <div class="nti-usr">
+                                    <img class="brd-rd50" src="assets/images/resources/acti-thmb4.jpg" alt="acti-thmb4.jpg">
+                                    <div class="nti-usr-inr">
+                                        <h5><a href="#" title="">Holli Doe</a></h5><span>Just Now</span>
+                                        <i>Curabitur id eros limes suscipit blandit.</i>
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="#" title="">View All</a>
+                        </div>
+                    </li>
+                    <li>
+                        <a class="cnt-btn" href="#" title=""><i class="icon ion-android-contacts"></i></a>
+                        <div class="cnt-lst">
+                            <div class="usr">
+                                <img class="brd-rd50" src="assets/images/resources/acti-thmb1.jpg" alt="acti-thmb1.jpg">
+                                <div class="usr-innr">
+                                    <h5><a href="#" title="">Smith Doe</a></h5>
+                                    <span>Co Worker</span>
+                                    <a href="#" title=""><i class="fa fa-envelope"></i></a>
+                                </div>
+                            </div>
+                            <div class="usr">
+                                <img class="brd-rd50" src="assets/images/resources/acti-thmb2.jpg" lt="acti-thmb2.jpg">
+                                <div class="usr-innr">
+                                    <h5><a href="#" title="">Katti Smith</a></h5>
+                                    <span>Graphic Designer</span>
+                                    <a href="#" title=""><i class="fa fa-envelope"></i></a>
+                                </div>
+                            </div>
+                            <div class="usr">
+                                <img class="brd-rd50" src="assets/images/resources/acti-thmb3.jpg" alt="acti-thmb3.jpg">
+                                <div class="usr-innr">
+                                    <h5><a href="#" title="">Willimes Domson</a></h5>
+                                    <span>Family Adviser</span>
+                                    <a href="#" title=""><i class="fa fa-envelope"></i></a>
+                                </div>
+                            </div>
+                            <div class="usr">
+                                <img class="brd-rd50" src="assets/images/resources/acti-thmb4.jpg" alt="acti-thmb4.jpg">
+                                <div class="usr-innr">
+                                    <h5><a href="#" title="">Holli Doe</a></h5>
+                                    <span>Company CEO</span>
+                                    <a href="#" title=""><i class="fa fa-envelope"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a class="noti-btn" href="#" title=""><i class="icon ion-ios-bell"></i><span>02</span></a>
+                        <div class="nti-drp-wrp">
+                            <h4 class="thm-bg"><span>You Have</span> 4 Notifications</h4>
+                            <div class="nti-lst">
+                                <div class="nti-usr">
+                                    <span class="brd-rd50 thm-bg"><i class="fa fa-cog"></i></span>
+                                    <div class="nti-usr-inr">
+                                        <h5><a href="#" title="">Sadi Orlaf</a></h5><span>Just Now</span>
+                                        <i>Privacy settings changed</i>
+                                    </div>
+                                </div>
+                                <div class="nti-usr">
+                                    <span class="brd-rd50 bg-info"><i class="icon ion-ios-person"></i></span>
+                                    <div class="nti-usr-inr">
+                                        <h5><a href="#" title="">Katti Smith</a></h5><span>Just Now</span>
+                                        <i>Mike has added you as friend</i>
+                                    </div>
+                                </div>
+                                <div class="nti-usr">
+                                    <span class="brd-rd50 bg-warning"><i class="icon ion-thumbsup"></i></span>
+                                    <div class="nti-usr-inr">
+                                        <h5><a href="#" title="">Willimes Domson</a></h5><span>Just Now</span>
+                                        <i>like your timeline photo</i>
+                                    </div>
+                                </div>
+                                <div class="nti-usr">
+                                    <span class="brd-rd50 bg-danger"><i class="icon ion-information-circled"></i></span>
+                                    <div class="nti-usr-inr">
+                                        <h5><a href="#" title="">Holli Doe</a></h5><span>Just Now</span>
+                                        <i>Curabitur id eros limes suscipit blandit.</i>
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="#" title="">View All</a>
+                        </div>
+                    </li>
+                </ul>
+            </div> <!-- Topbar Lists -->
+        </div><!-- Topbar -->
+        <header class="dark-bg">
+            <div class="usr-inf" style="background-color: black;">
+                <div class="usr-inf-inner">
+                    <span class="usr-img"><img src="assets/images/img_pro2.jpg" alt="image"><i class="usr-sts onln"></i></span>
+                    <div class="usr-nm-desg">
+                        <h4>John Doe</h4>
+                        <span>Designer</span>
+                    </div>
+                </div>
+                <p></p>
+                <div class="usr-inf-btns">
+                    <a class="usr-msg" href="#" title="">Message</a>
+                    <a class="usr-log" href="#" title="">Log Out</a>
+                </div>
+            </div><!-- User Info -->
+            <nav>
+                <ul>
+                    <li><a href="index.html"><i class="icon ion-ios-crop"></i><span>Overview</span></a></li>
+                    
+                    <li class="menu-item-has-children"><a href="#" title=""><i class="icon ion-android-home"></i><span>Approval Center</span></a>
+                        <ul class="children">
+                            <li><a href="dig_marketing.html" title="">Digital Marketing</a></li>
+                            <li><a href="ecommerce.html" title="">Ecommerce</a></li>
+                            <li><a href="shop_savers.html" title="">Shop Saver</a></li>
+                            <li><a href="entrep_center.html" title="">Entrepreneur Centre</a></li>
+                            <li><a href="video_promo.html" title="">Video Promos</a></li>
+                            <li><a href="banner_promo.html" title="">Banner Promos</a></li>
+                            <li><a href="reviews.html" title="">Reviews</a></li>
+                            <li><a href="user_regi.html" title="">User Registration</a></li>
+                            <li><a href="buyer_mem.html" title="">Membership</a></li>
+                            <li><a href="contracors.html" title="">Contractors</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-item-has-children"><a href="#" title=""><i class="icon ion-android-home"></i><span>Business Activities</span></a>
+                        <ul class="children">
+                            <li><a href="sales_report.html" title="">Sales Report</a></li>
+                            <li><a href="subs_report.html" title="">Subscription Report</a></li>
+                            <li><a href="promo_report.html" title="">Promo Report</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-item-has-children"><a href="#" title=""><i class="icon ion-android-home"></i><span>Admin</span></a>
+                        <ul class="children">
+                            <li><a href="user_manage.html" title="">User Mangement</a></li>
+                            
+                            <li><a href="biz_clasification.html" title="">Business Classification</a></li>
+                            <li><a href="location_manage.html" title="">Location Management</a></li>
+                            <li><a href="doc_manage.html" title="">Document Management</a></li>
+                            <li><a href="pricing_manage.html" title="">Pricing Management</a></li>
+                            <li><a href="product_manage.html" title="">Products Management</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-item-has-children"><a href="#" title=""><i class="icon ion-android-home"></i><span>Video Management</span></a>
+                        <ul class="children">
+                            <li><a href="vm_affiliate.html" title="">Affiliate Admin</a></li>
+                            <li><a href="vm_email.html" title="">Email Admin</a></li>
+                            <li><a href="vm_seo.html" title="">SEO</a></li>
+                            <li><a href="vm_social.html" title="">Social Marketing</a></li>
+                            <li><a href="vm_shop.html" title="">Shop Saver</a></li>
+                            <li><a href="vm_contractor.html" title="">Contractor Site</a></li>
+                            <li><a href="vm_bizsel.html" title="">Business Sales</a></li>
+                            <li><a href="vm_psel.html" title="">Property Sales</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-item-has-children"><a href="#" title=""><i class="icon ion-android-home"></i><span>Banner Management</span></a>
+                        <ul class="children">
+                            <li><a href="bm_affiliate.html" title="">Affiliate Admin</a></li>
+                            <li><a href="bm_email.html" title="">Email Admin</a></li>
+                            <li><a href="bm_seo.html" title="">SEO</a></li>
+                            <li><a href="bm_social.html" title="">Social Marketing</a></li>
+                            <li><a href="bm_shop.html" title="">Shop Saver</a></li>
+                            <li><a href="bm_contractor.html" title="">Contractor Site</a></li>
+                            <li><a href="bm_bizsel.html" title="">Business Sales</a></li>
+                            <li><a href="bm_psel.html" title="">Property Sales</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-item-has-children"><a href="#" title=""><i class="icon ion-android-home"></i><span>Promo Management</span></a>
+                        <ul class="children">
+                            <li><a href="pm_affiliate.html" title="">Affiliate Admin</a></li>
+                            <li><a href="pm_email.html" title="">Email Admin</a></li>
+                            <li><a href="pm_seo.html" title="">SEO</a></li>
+                            <li><a href="pm_social.html" title="">Social Marketing</a></li>
+                            <li><a href="pm_shop.html" title="">Shop Saver</a></li>
+                            <li><a href="pm_contractor.html" title="">Contractor</a></li>
+                            <li><a href="pm_bsel.html" title="">Business Sales</a></li>
+                            <li><a href="pm_psel.html" title="">Property Sales</a></li>
+                        </ul>
+                    </li>
+                    
+                    
+                    <li class="menu-item-has-children"><a href="#" title=""><i class="icon ion-android-home"></i><span>Content Management</span></a>
+                        <ul class="children">
+                            <li><a href="banner_contents.html" title="">Banner Promo Contents</a></li>
+                            <li><a href="hom_content.html" title="">Home Page</a></li>
+                            <li><a href="services_content.html" title="">Services</a></li>
+                            <li><a href="about_us_content.html" title="">About Us</a></li>
+                            <li><a href="success_story_content.html" title="">Success Stories</a></li>
+                            <li><a href="footer_content.html" title="">Footer Content</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="entrep_center.html"><i class="icon ion-ios-crop"></i><span>Entreprenuer Center</span></a></li>
+                    <li><a href="dashboard_affiliate.html" title=""><i class="icon ion-ios-crop"></i><span>Affiliate Admin</span></a></li><li><a href="email.html" title=""><i class="icon ion-ios-crop"></i><span>Email Center</span></a></li>
+                    <li><a href="dashboard_email.html" title=""><i class="icon ion-ios-crop"></i><span>Email Admin</span></a></li><li><a href="email.html" title=""><i class="icon ion-ios-crop"></i><span>Email Center</span></a></li>
+                    <li><a href="dashboard_seo.html" title=""><i class="icon ion-ios-crop"></i><span>SEO</span></a></li><li><a href="email.html" title=""><i class="icon ion-ios-crop"></i><span>Email Center</span></a></li>
+                    <li><a href="dashboard_sm.html" title=""><i class="icon ion-ios-crop"></i><span>Social Marketing</span></a></li><li><a href="email.html" title=""><i class="icon ion-ios-crop"></i><span>Email Center</span></a></li>
+                    <li><a href="#" title=""><i class="icon ion-ios-crop"></i><span>Shop Saver</span></a></li><li><a href="email.html" title=""><i class="icon ion-ios-crop"></i><span>Email Center</span></a></li>
+                </ul>
+            </nav><!-- Nav -->
+
+        </header><!-- Header -->
+        <!---------lions promos ---------->
+        <section class="move_btn">
+            <a href="index.html"><img src="assets/images/left-arrow.png" alt=""></a>
+        </section>
+        <section id="lions_promos">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="page-title">
+                        <h1><a href="pm_email.html">Email Promo Management</a></h1>
+                    </div>
+                </div>
+            </div>
+            <div class="promo_top_btn">
+                <button class="custom_btn" onclick="window.location.href='new_promo_page.html';">New Promo</button>
+            </div>
+            <div class="form_content">
+                <div class="form_item">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="item_box salut_box">
+                                <select name="" id="">
+                                    <option value="" selected>Site </option>
+                                    <option value="">site</option>
+                                    <option value="">site</option>
+
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="">
+                <div class="wdgt-box wrkng-ordr" id="" style="padding-bottom: 95px">
+                    <div class="wdgt-opt">
+                        <a class="refrsh-btn" href="#" title=""><i class="icon ion-ios-reload"></i></a>
+                        <a class="expnd-btn" href="#" title=""><i class="icon ion-arrow-expand"></i></a>
+                    </div>
+
+                    <div class="wdgt-ldr">
+                        <div class="ball-pulse">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                    </div>
+                    <h4></h4>
+                    <div class="slct-box">
+                        <i class="icon ion-android-funnel"> Sort By:</i>
+                        <select>
+                            <option>Date</option>
+                            <option>Date</option>
+                            <option>Date</option>
+                            <option>Date</option>
+                            <option>Date</option>
+                        </select>
+                    </div>
+                    <div class="ordr-tbl-wrp" style="margin-top: 30px;">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>#</th>
+                                    <th>Date</th>
+                                    <th>Division</th>
+                                    <th>Site</th>
+                                    <th>Promo type</th>
+                                    <th>Country</th>
+                                    <th>State</th>
+                                    <th>City</th>
+                                    <th>Suburb</th>
+                                    <th>Territory</th>
+                                    <th>Suburb</th>
+                                    <th>Status</th>
+                                    <th>Action </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>date</td>
+                                    <td>text</td>
+                                    <td>text</td>
+                                    <td>type</td>
+                                    <td>text</td>
+                                    <td>text</td>
+                                    <td>text</td>
+                                    <td>text</td>
+                                    <td>text</td>
+                                    <td>text</td>
+                                    <td>text</td>
+                                    <td class="action_table_btn">
+                                        <div class="btn-group dropdown">
+                                            <button type="button" class="dropdown-toggle table_view_btn" data-toggle="dropdown" aria-haspopup="true">
+                                                Select
+                                            </button>
+                                            <div class="dropdown-menu text-left" style="margin: 0; padding: 0;">
+                                                <a class="dropdown-item act-btn" href="view_promo_page.html">View</a>
+                                                <a class="dropdown-item act-btn" href="#">Open</a>
+                                                <a class="dropdown-item rej-btn" href="#">Pause</a>
+                                                <a class="dropdown-item rej-btn" href="#">Close</a>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!---------lions promos end ---------->
+        <footer style="background-color: black;">
+            <div class="col-sm-12" style="text-align: center;background-color: black;color: white;">© Lions Business Brokers 2020. All Rights Reserved</div>
+        </footer>
+    </main><!-- Main Wrapper -->
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/chart-core.js"></script>
+    <script src="assets/js/charts.js"></script>
+    <script src="assets/js/chartjs.js"></script>
+    <script src="assets/js/animated.js"></script>
+    <script src="assets/js/pie-chart1.js"></script>
+    <script src="assets/js/chart1.js"></script>
+    <script src="assets/js/chart2.js"></script>
+    <script src="assets/js/chart3.js"></script>
+    <script src="assets/js/calendar-core-main.min.js"></script>
+    <script src="assets/js/calendar-interaction-main.min.js"></script>
+    <script src="assets/js/calendar-daygrid-main.min.js"></script>
+    <script src="assets/js/calendar-int.js"></script>
+    <script src="assets/js/plugins.min.js"></script>
+    <script src="assets/js/patternomaly.js"></script>
+    <script src="assets/js/chartjs-int.js"></script>
+    <script src="assets/js/editor.js"></script>
+    <script src="assets/js/plugins.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="assets/js/custom-scripts.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+
+
+</body>
+
+</html>
